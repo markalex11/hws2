@@ -1,0 +1,23 @@
+.App {
+    --header_height: 60px;
+    background-color: white ;
+
+}
+
+.hw {
+    /*position: absolute;*/
+    height: 500px ;
+    border-bottom: 2px solid gray;
+    padding: 20px 3%;
+}
+
+.hwTitle {
+    height: 150px;
+    border-bottom: 2px solid gray;
+    font-size: 25px;
+    font-family: Baskerville;
+    color: black;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 50px;
+}

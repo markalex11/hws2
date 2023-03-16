@@ -6,9 +6,10 @@
 
 .hw {
     /*position: absolute;*/
-    height: 500px ;
+    /*height: 500px ;*/
     border-bottom: 2px solid gray;
-    padding: 20px 3%;
+    padding: 50px 8%;
+
 }
 
 .hwTitle {

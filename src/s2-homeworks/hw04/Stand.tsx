@@ -6,6 +6,7 @@ import SuperButton from './common/c2-SuperButton/SuperButton'
 
 const Stand = () => {
     const [stateForAllInputs, setValue] = useState<string>('')
+
     const [error, setError] = useState<string>('')
 
     const [stateForAllCheckboxes, setChecked] = useState<boolean>(false)
@@ -19,6 +20,7 @@ const Stand = () => {
                         id={'hw4-super-input-like-old'}
                         value={stateForAllInputs}
                         onChange={(e) => setValue(e.currentTarget.value)}
+                        // принимает ивент и СетВелью забирает из него то что введено в инпат
                     />
                 </div>
                 {/*инпут с ошибкой:*/}
@@ -83,6 +85,7 @@ const Stand = () => {
                         onChangeChecked={setChecked}
                     >
                         some text
+                        {/*children сверху*/}
                     </SuperCheckbox>
                 </div>
                 {/*совместим со старым кодом:*/}

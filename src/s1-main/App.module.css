@@ -13,12 +13,12 @@
 }
 
 .hwTitle {
-    height: 150px;
+    height: 80px;
     border-bottom: 2px solid gray;
     font-size: 25px;
     font-family: Baskerville;
     color: black;
     text-align: left;
-    padding-top: 100px;
+    padding-top: 30px;
     padding-left: 50px;
 }

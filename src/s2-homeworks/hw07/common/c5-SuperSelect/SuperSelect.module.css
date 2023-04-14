@@ -1,4 +1,8 @@
 .select {
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 30px;
+    max-height: 30px;
 }
 
 .select:focus {

@@ -1,5 +1,5 @@
 .button {
-    width:130px;
+    width:150px;
     height: 30px;
     border-radius: 4px;
     color: white;
@@ -17,7 +17,7 @@
 .secondary {
     background-color: white;
     border: 1px solid #0059b3;
-    width: 170px;
+    width: 150px;
     color: #0059b3
 }
 
@@ -32,12 +32,12 @@
 }
 
 .default:hover {
-    width: 170px;
+    width: 150px;
     opacity: 0.9;
 }
 
 .red:hover {
-    width: 170px;
+    width: 150px;
     opacity: 0.9;
 }
 

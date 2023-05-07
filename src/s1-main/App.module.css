@@ -6,7 +6,7 @@
 
 .hw {
     /*position: absolute;*/
-    /*height: 500px ;*/
+    min-height: 400px ;
     border-bottom: 2px solid gray;
     padding: 50px 8%;
 
